@@ -1,0 +1,101 @@
+*{
+    font-size: 20px
+}
+
+body #img1{
+float: left;
+width: 200px;
+height: 280px;
+margin-right: 25px;
+border: 3px dotted rgb(68, 3, 14);
+margin-bottom: 20px
+}
+#p2{
+    clear: left
+}
+h1{
+    font-size:30px;
+    color:rgb(158, 12, 12) ;
+    text-align:  center
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 220px;
+    color: rgb(141, 10, 10);
+    font-size: 30px;
+    /* margin-bottom:15px  */
+}
+ul li:hover{
+border-radius: 40%;
+padding: 15px;
+background-color:  rgba(141, 10, 10, 0.527);
+border: 2px dotted rgb(121, 13, 13)
+}
+#imgs{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    transition-delay: 2s;
+    transition-duration: 2s;
+transition-timing-function:ease 
+}
+#imgs1{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    transition-timing-function:ease-in ;
+    transition: ease;
+    transition-duration:1s 
+
+}
+#imgs2{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+transition-timing-function: ease-in-out;
+transition-duration:2s 
+
+    
+}
+#imgs:hover{
+    width: 350px;
+    height: 250px;
+    margin-left: 350px;
+border: 7px double rgb(87, 1, 1);
+}
+#imgs1:hover{
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+border: 7px dotted rgb(87, 1, 1);
+border-radius: 50%
+    
+}
+#imgs2:hover{
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+border: 7px groove rgb(235, 213, 19);
+border-radius: 50px;
+    
+}
+#hr{
+    width: 80%;
+    height: 3px;
+    margin-left: 10%;
+    background-color: rgb(139, 37, 37)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
